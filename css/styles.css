@@ -1,0 +1,290 @@
+/* #region global tag styles*/
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+address {
+    font-style: normal;
+}
+/* #endregion */
+
+/* #region global styles for body */
+.section
+{
+    padding: 120px 0;
+}
+
+.container{
+    width:1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+}
+
+.flex-list{
+    display:flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card-item-container {
+    padding: 32px 0;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* #endregion */
+
+/* #region header styles */
+.header {
+    border-bottom: 1px solid #E7E9FC;
+}
+    
+.header-container {
+    display: flex;
+    align-items: center;
+}
+    
+    
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    padding: 24px 0;
+    margin-right: 76px;
+}
+    
+.navigation-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+    
+        
+.navigation-link {
+    display: block;
+    font-weight: 500;
+    color: #2e2f42;
+    padding: 24px 0;
+}
+        
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+    
+.header-address-link {
+    display: block;
+    padding: 24px 0;
+}
+        
+.header-address {
+    margin-left: auto;
+}
+
+.navigation-link:hover,
+.navigation-link:focus,
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #404bbf;
+}
+        /* #endregion */
+
+/* #region logo styles */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.dark-logo {
+    color: #2e2f42;
+}
+
+.light-logo {
+    color: #f4f4fd
+}
+/* #endregion */
+
+/* #region main-page styles */
+
+.main-page {
+    background: #2e2f42;
+    padding: 188px 0;
+}
+
+.main-page-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: inherit;
+    background: #4d5ae5;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 16px 32px;
+    text-align: center;
+    margin: 0 auto;
+}
+.main-page-button:hover,
+.main-page-button:focus{
+    background-color: #404bbf;
+}
+/* #endregion */
+
+/* #region skill-section styles */
+
+/* .skill-section{
+    padding-top: 52px;
+} */
+.skills-item{
+    width: calc( (100% - 24px * 3) / 4);
+}
+
+/* #endregion */
+
+/* #region team-section styles */
+
+.team-section {
+    background: #f4f4fd;
+}
+
+.team-section-title{
+    text-transform: capitalize;
+}
+
+.teams-item {
+    background: #fff;
+    text-align: center;
+    width: calc((100% - 24px * 3) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+/* #endregion */
+
+/* #region portfolio-section styles */
+
+.portfolio-list{
+    flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.portfolio-section-title{
+    text-transform: capitalize;
+}
+
+.portfolio-item{
+    width: calc((100% - 24px * 2) / 3);
+}
+
+.portfolio-card-item-container{
+    padding: 32px 16px;
+}
+
+/* #endregion */
+
+/* #region footer styles */
+
+.footer {
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-logo{
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
+.footer-text{
+    max-width:264px;
+    color: #f4f4fd;
+}
+
+/* #endregion */
+
+
