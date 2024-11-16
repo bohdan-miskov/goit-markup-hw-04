@@ -170,6 +170,7 @@ address {
 
 .navigation-link.active{
     position: relative;
+    color: #404bbf;
 }
 
 .navigation-link.active::after{
