@@ -168,12 +168,12 @@ address {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-link.active{
+.navigation-link.current{
     position: relative;
     color: #404bbf;
 }
 
-.navigation-link.active::after{
+.navigation-link.current::after{
     content: '';
     position: absolute;
     left:0;
