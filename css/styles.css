@@ -81,7 +81,7 @@ address {
 }
 
 .card-item-container {
-    padding: 32px 16px;
+    padding: 32px 0;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
@@ -110,7 +110,6 @@ address {
 
 .socials-list {
     display: flex;
-    gap: 24px;
 }
 
 .social-link {
@@ -233,6 +232,9 @@ address {
         rgba(46, 47, 66, 0.7), 
         rgba(46, 47, 66, 0.7)),
          url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     max-width: 1440px;
     margin: 0 auto;
     padding: 188px 0;
@@ -307,6 +309,11 @@ address {
     margin-bottom: 8px;
 }
 
+.team-socials-list{
+    gap: 24px;
+    justify-content: center;
+}
+
 .teams-social-link:hover,
 .teams-social-link:focus {
     background-color:#404bbf;
@@ -358,9 +365,9 @@ address {
     transform: translateY(0);
 }
 
-/* .portfolio-card-item-container{
+.portfolio-card-item-container{
     padding: 32px 16px;
-} */
+}
 
 /* #endregion */
 
@@ -374,7 +381,11 @@ address {
 
 .footer-container{
     display: flex;
-    gap: 120px;
+    align-items: baseline;
+}
+
+.footer-content-container{
+    margin-right: 120px;
 }
 
 .footer-logo{
@@ -391,6 +402,10 @@ address {
     font-weight: 500;
     color: #fff;
     margin-bottom: 16px;
+}
+
+.footer-socials-list{
+    gap: 16px;
 }
 
 .footer-social-link:hover,
